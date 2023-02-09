@@ -13,9 +13,12 @@ install_requires = [
         'matplotlib',
         'pytz',
         'imageio==2.4.1',
-        'gym',
+        'gym==0.23.*',
         'moviepy',
         'pandas',
+	'scipy',
+        'protobuf==3.20.*',
+        'requests',
         # 'opencv-python<=4.2.0.32', # solely for stable_baselines (needs to be this version or lower for python2.7)
         # 'stable_baselines<2.4.1', # needs to be this version or lower for python2.7 (setup.py uses subprocess in a python3 way)
     ]
